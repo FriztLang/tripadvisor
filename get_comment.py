@@ -176,7 +176,7 @@ def crawl_with_webdriver(url, browser='chrome'):
 def click_on_plus(browser):
   return browser.find_element_by_css_selector('.taLnk.ulBlueLinks').click()
 
-def get_plus(browser, comment_id)
+def get_plus(browser, comment_id):
   # todo get the comment id we just click on plus…
   return browser.find_elements_by_class_name("partial_entry")
 
